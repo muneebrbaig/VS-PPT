@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>FixMixedTabs</RootNamespace>
     <AssemblyName>FixMixedTabsProPack</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
     <TargetFrameworkProfile />
     <GeneratePkgDefFile>false</GeneratePkgDefFile>
