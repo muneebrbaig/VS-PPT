@@ -4,6 +4,17 @@ Introduction:
     This extension adds a transform that compresses lines that do not contain numbers or text.
 
 History:
+    v1.2   Muneeb R. Baig 11/06/2024
+        ♻️ Refactor line compression logic in SyntacticFisheye
+
+      Refactored the logic for determining line compression in the `Microsoft.VisualStudio.SyntacticFisheye` namespace. 
+      Introduced two helper methods: `GetLineText` for extracting line text and `ShouldCompressLine` for analyzing line content. 
+      The new logic handles blank lines, namespace declarations, comments, attributes, regions, preprocessor directives,
+      and lines with no letters or digits. Simplified the main logic for improved readability and maintainability.
+
+      Added support for skipping compression of blank lines and simple/structural lines based on configuration options 
+      (`_compressBlankLines` and `_compressSimpleLines`).
+
 		v1.1   Muneeb R. Baig 10/16/2024
         Update projects to .NET 4.8 and VS 17 with ARM64 support
 
