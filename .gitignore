@@ -207,3 +207,14 @@ FakesAssemblies/
 # Visual Studio 6 workspace options file
 *.opt
 
+# System Files
+.DS_Store
+Thumbs.db
+
+# Visual Studio Code
+.vscode/settings.json
+.vscode/launch.json
+
+
+
+/.DS_Store
